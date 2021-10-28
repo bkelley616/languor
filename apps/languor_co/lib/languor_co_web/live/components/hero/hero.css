@@ -1,0 +1,22 @@
+
+.hero-image {
+  position: absolute;
+  min-height: 100%;
+  min-width: 102%;
+  margin-left: -1px;
+  z-index: -1;
+  object-fit: cover;
+  background-color: #0062b1;
+}
+
+.hero-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: calc(100vh - 80px);
+}
+
+@media screen and (max-height: 800px) {
+  .hero-container {
+    height: 100%;
+    min-height: calc(100vh - 80px);
+  }
+}

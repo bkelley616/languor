@@ -1,0 +1,27 @@
+<nav id="nav" class="fixed z-50 w-full p-1 bg-white shadow-lg">
+  <div class="mx-auto max-w-7xl">
+    <div class="flex flex-col justify-between sm:flex-row">
+      <button class="mr-auto nav default-focus" value="">
+        <img
+          width="0"
+          height="0"
+          class="inline-block w-auto h-8 my-2 ml-4 nav sm:mr-0"
+          src="/images/languor/color-languor-brand.svg"
+          alt="Languor Brand White"
+        />
+      </button>
+      <div class="self-end hidden my-2 mr-16 space-x-8 lg:mr-32 lg:space-x-16 text-gray-dark sm:block">
+        <button class="nav nav-link" value="">Home</button>
+        <button class="nav nav-link" value="Products">Products</button>
+        <button class="nav nav-link" value="About-Us">About Us</button>
+        <button class="nav nav-link" value="Contact">Contact</button>
+      </div>
+      <div class="px-4 my-2 space-x-8 overflow-x-auto sm:hidden text-gray-dark whitespace-nowrap hide-scrollbar">
+        <button class="nav nav-link" value="">Home</button>
+        <button class="nav nav-link" value="Products">Products</button>
+        <button class="nav nav-link" value="About-Us">About Us</button>
+        <button class="nav nav-link" value="Contact">Contact</button>
+      </div>
+    </div>
+  </div>
+</nav>

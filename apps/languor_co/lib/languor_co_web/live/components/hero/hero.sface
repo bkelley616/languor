@@ -1,0 +1,39 @@
+<section class="relative w-screen overflow-hidden hero-container">
+  <picture>
+    <source
+      type="image/webp"
+      srcset="/images/hero/hero-abstract_zpnumy_c_scale,w_190.webp 190w,/images/hero/hero-abstract_zpnumy_c_scale,w_877.webp 877w,/images/hero/hero-abstract_zpnumy_c_scale,w_1295.webp 1295w,/images/hero/hero-abstract_zpnumy_c_scale,w_1736.webp 1736w,/images/hero/hero-abstract_zpnumy_c_scale,w_2111.webp 2111w,/images/hero/hero-abstract_zpnumy_c_scale,w_2528.webp 2528w,/images/hero/hero-abstract_zpnumy_c_scale,w_2917.webp 2917w,/images/hero/hero-abstract_zpnumy_c_scale,w_3308.webp 3308w,/images/hero/hero-abstract_zpnumy_c_scale,w_4241.webp 4241w,/images/hero/hero-abstract_zpnumy_c_scale,w_5000.webp 5000w"
+    />
+    <img
+      width="0"
+      height="0"
+      class="hero-image"
+      srcset="/images/hero/hero-abstract_tisuyd_c_scale,w_190.jpg 190w,/images/hero/hero-abstract_tisuyd_c_scale,w_591.jpg 591w,/images/hero/hero-abstract_tisuyd_c_scale,w_941.jpg 941w,/images/hero/hero-abstract_tisuyd_c_scale,w_1236.jpg 1236w,/images/hero/hero-abstract_tisuyd_c_scale,w_1501.jpg 1501w,/images/hero/hero-abstract_tisuyd_c_scale,w_1743.jpg 1743w,/images/hero/hero-abstract_tisuyd_c_scale,w_1961.jpg 1961w,/images/hero/hero-abstract_tisuyd_c_scale,w_2197.jpg 2197w,/images/hero/hero-abstract_tisuyd_c_scale,w_2384.jpg 2384w,/images/hero/hero-abstract_tisuyd_c_scale,w_2583.jpg 2583w,/images/hero/hero-abstract_tisuyd_c_scale,w_2741.jpg 2741w,/images/hero/hero-abstract_tisuyd_c_scale,w_2917.jpg 2917w,/images/hero/hero-abstract_tisuyd_c_scale,w_3100.jpg 3100w,/images/hero/hero-abstract_tisuyd_c_scale,w_3267.jpg 3267w,/images/hero/hero-abstract_tisuyd_c_scale,w_3637.jpg 3637w,/images/hero/hero-abstract_tisuyd_c_scale,w_3840.jpg 3840w"
+      src="/images/hero/hero-abstract_tisuyd_c_scale,w_3840.jpg"
+      alt="Hero Banner Image"
+    />
+  </picture>
+  <div class="mx-auto max-w-7xl my-36" data-scroll-animation="fade-up-hero">
+    <div class="md:ml-8 lg:ml-10">
+      <img
+        width="0"
+        height="0"
+        class="w-auto h-16 mx-auto md:mx-0 sm:h-28 lg:h-32"
+        src="/images/languor/white-languor-brand.svg"
+        alt="Languor Brand White"
+      />
+      <div class="flex flex-col md:flex-row">
+        <div class="flex mt-8 md:ml-12 md:mr-12 md:w-96 lg:w-140">
+          <p class="justify-center px-10 text-3xl text-center text-white sm:px-8 md:px-0 md:text-left sm:text-4xl lg:text-6xl subheader-text">We're a web development studio dedicated to filling the languorous moments with fun.</p>
+        </div>
+        <img
+          class="self-center w-auto h-48 mt-8 lg:ml-12 sm:mt-12 md:self-start md:mt-0 md:h-64 lg:h-80"
+          width="0"
+          height="0"
+          src="/images/languor/sitting-red-panda.svg"
+          alt="Sitting Red Panda Mascot"
+        />
+      </div>
+    </div>
+  </div>
+</section>

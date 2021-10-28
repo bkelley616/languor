@@ -1,0 +1,15 @@
+<div class="relative">
+  <ContactDivider />
+</div>
+<section id="contact" class="pt-8 pb-52 lg:pb-64 sm:pt-16 md:pt-24 lg:pt-40 bg-smoke">
+  <h1 data-scroll-animation="fade-up" class="mt-10 text-5xl text-center lg:text-6xl header-text">Contact Us:</h1>
+  <img
+    data-scroll-animation="fade-up"
+    class="w-auto h-48 mx-auto mt-16 lg:mt-20 lg:h-60"
+    width="0"
+    height="0"
+    src="/images/languor/laying-towards-red-panda.svg"
+    alt="Facing Towards Red Panda Mascot"
+  />
+  <h2 data-scroll-animation="fade-up" class="px-4 mt-8 text-3xl text-center lg:mt-10 lg:text-4xl">Sorry, we are away right now...</h2>
+</section>

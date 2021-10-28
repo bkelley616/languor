@@ -1,0 +1,32 @@
+
+[data-scroll-animation=fade-up] {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.6s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+[data-scroll-animation=fade-up].show {
+  opacity: 1;
+  transform: translateY(0)
+}
+
+[data-scroll-animation=fade-up].seen {
+  opacity: 1;
+  transform: translateY(0)
+}
+
+[data-scroll-animation=fade-up-hero] {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1.2s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+[data-scroll-animation=fade-up-hero].show {
+  opacity: 1;
+  transform: translateY(0)
+}
+
+[data-scroll-animation=fade-up-hero].seen {
+  opacity: 1;
+  transform: translateY(0)
+}

@@ -1,0 +1,30 @@
+/* put here */
+
+.about-us-divider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  fill: #f5f5f5;
+}
+
+.founder-image {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (min-width: 400px) {
+  .founder-image {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .founder-image {
+    width: 300px;
+    height: 300px;
+  }
+}

@@ -1,0 +1,39 @@
+<div class="relative mx-auto max-w-7xl">
+  <img
+    class="w-auto ml-auto mr-10 h-28 lg:h-36 overlay-mascot"
+    width="0"
+    height="0"
+    src="/images/languor/laying-sideways-red-panda.svg"
+    alt="Laying Sideways Red Panda Mascot"
+  />
+</div>
+<footer class="text-white bg-secondary">
+  <div class="px-4 py-10 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
+    <nav class="flex flex-wrap justify-center mt-5 -mx-5 -my-2" aria-label="Footer">
+      <div class="px-5 py-2">
+        <button class="nav footer-link" value="">
+          Home
+        </button>
+      </div>
+      <div class="px-5 py-2">
+        <button class="nav footer-link" value="Products">
+          Products
+        </button>
+      </div>
+      <div class="px-5 py-2">
+        <button class="nav footer-link" value="About-Us">
+          About Us
+        </button>
+      </div>
+      <div class="px-5 py-2">
+        <button class="nav footer-link" value="Contact">
+          Contact
+        </button>
+      </div>
+    </nav>
+    <p class="mt-8 text-base text-center ext-sm">Made with &#10084;</p>
+    <p class="mt-4 text-sm text-base text-center">
+      &copy; 2021 All rights reserved.
+    </p>
+  </div>
+</footer>

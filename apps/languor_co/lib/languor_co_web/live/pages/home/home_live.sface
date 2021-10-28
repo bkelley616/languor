@@ -1,0 +1,6 @@
+<Nav />
+<Hero />
+<ProductsSection />
+<AboutUsSection />
+<ContactSection />
+<Footer />

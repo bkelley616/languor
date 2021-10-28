@@ -1,0 +1,16 @@
+*.js            eol=lf
+*.json          eol=lf
+*.css           eol=lf
+*.xml           eol=lf
+*.md            eol=lf
+*.txt           eol=lf
+*.dict          eol=lf
+*.ex            eol=lf
+*.exs           eol=lf
+*.lock          eol=lf
+*.config        eol=lf
+*.config.js     eol=lf
+.eslintrc.json  eol=lf
+.iex.exs        eol=lf
+.gitattributes  eol=lf
+.gitignore      eol=lf

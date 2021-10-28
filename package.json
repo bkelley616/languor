@@ -1,0 +1,40 @@
+{
+  "name": "languor",
+  "version": "0.0.0",
+  "description": "languor umbrella of apps",
+  "main": " ",
+  "scripts": {
+    "prod": "npm run deploy-languor_co_css && npm run process-static-assets",
+    "fetch-deps": "mix setup",
+    "start-dev": "concurrently \"npm:ex-lint-watch\"  \"npm:js-lint-watch\" \"npm:watch-languor_co_css\" \"npm:start-server\"",
+    "start-server": "set AUTH_USERNAME=languor&& set AUTH_PASSWORD=languor&& mix run --no-halt",
+    "lint-all": "npm run ex-lint && npm run js-lint && npm run css-lint",
+    "ex-lint": "mix credo --strict && mix surface.format",
+    "ex-lint-watch": "npm run ex-lint --watch",
+    "js-lint": "npx esw ./apps/languor_co/assets/js/** ./apps/languor_co/lib/languor_co_web/live/**",
+    "js-lint-watch": "npm run js-lint -- -w",
+    "js-lint-fix": "npm run js-lint -- --fix",
+    "css-lint": "npx stylelint ./apps/languor_co/assets/css/**/*.css ./apps/languor_co/lib/languor_co_web/live/**/*.css",
+    "process-static-assets": "mix assets.deploy",
+    "deploy-languor_co_css": "cd ./apps/languor_co/assets && npm install && NODE_ENV=production npx tailwindcss --postcss --input=css/app.css --output=../priv/static/assets/app.css --minify",
+    "watch-languor_co_css": "cd ./apps/languor_co/assets && cross-env NODE_ENV=development npx tailwindcss --postcss --input=css/app.css --output=../priv/static/assets/app.css --watch",
+    "local_release_build": "set SECRET_KEY_BASE=\"$(mix phx.gen.secret)\"&& set MIX_ENV=prod&&mix release",
+    "local_release_run": "set MIX_ENV=prod&& set PORT=80&& _build/prod/rel/prod/bin/prod start",
+    "deploy": "npm run prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "eslint-watch": "^7.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "cross-env": "^7.0.3"
+  }
+}

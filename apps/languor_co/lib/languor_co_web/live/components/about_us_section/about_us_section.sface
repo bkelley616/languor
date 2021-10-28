@@ -1,0 +1,27 @@
+<div class="relative bg-smoke-dark">
+  <AboutUsDivider />
+</div>
+<section id="about-us" class="pb-40 bg-smoke-dark">
+  <h1
+    data-scroll-animation="fade-up"
+    class="pt-24 text-5xl text-center sm:pt-32 lg:pt-44 lg:text-6xl header-text"
+  >About Us:</h1>
+  <div class="flex flex-col px-10 mx-auto mt-16 md:px-20 lg:mt-20 lg:flex-row max-w-7xl">
+    <picture class="self-center flex-none lg:self-start">
+      <source srcset="/images/about/founder-lg.jpg" media="(min-width: 1024px)">
+      <source srcset="/images/about/founder-med.jpg" media="(min-width: 640px)">
+      <img
+        data-scroll-animation="fade-up"
+        class="rounded-full founder-image"
+        width="200"
+        height="200"
+        src="/images/about/founder.jpg"
+        alt="Founder and his dog"
+      />
+    </picture>
+    <h2
+      data-scroll-animation="fade-up"
+      class="mt-4 text-2xl text-center lg:pl-10 sm:mt-8 lg:mt-0 lg:text-left lg:text-3xl"
+    >Brandon (and his best friend Winston) created Languor as an <a class="link" href="https://github.com/bkelley616/languor">open source</a> side project in the hope to learn more about functional programming by creating free multiplayer games for the web using Elixir and it's Phoenix Framework. Infact, this site is a Phoenix LiveView app within an Elixir umbrella project that will contain all the products languor.co creates!</h2>
+  </div>
+</section>

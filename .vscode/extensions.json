@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "adrianwilczynski.alpine-js-intellisense", 
+    "akamud.vscode-theme-onedark",
+    "albert.TabOut",
+    "ban.spellright",
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "heybourn.headwind",
+    "HookyQR.beautify",
+    "JakeBecker.elixir-ls",
+    "michelemelluso.code-beautifier",
+    "msaraiva.surface",
+    "pantajoe.vscode-elixir-credo",
+    "RoyalMist.vscode-eex-format",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint",
+    "vscode-icons-team.vscode-icons"
+  ]
+}

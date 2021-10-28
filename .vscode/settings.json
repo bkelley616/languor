@@ -1,0 +1,68 @@
+{
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "vscode-icons",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Atom One Dark",
+  "files.associations": {
+  },
+  "beautify.language": {
+      "js": {
+          "type": [
+              "javascript",
+              "json",
+              "jsonc"
+          ],
+          "filename": [
+              ".jshintrc",
+              ".jsbeautifyrc"
+          ],
+          "ext": [
+              "js",
+              "json",
+              "hooks.js"
+          ]
+      },
+      "css": [
+          "css",
+          "less",
+          "scss"
+      ],
+      "html": [
+          "htm",
+          "html",
+          "HTML (EEx)"
+      ]
+  },
+  "beautify.ignore": "",
+  "explorer.compactFolders": false,
+  "vsicons.associations.files": [
+      {
+          "icon": "eex",
+          "extensions": [
+              ".sface"
+          ],
+          "format": "svg",
+          "light": true
+      }
+  ],
+  "editor.linkedEditing": true,
+  "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "eslint.lintTask.enable": true,
+  "files.eol": "\n",
+  "cSpell.customDictionaries": {
+      "project-words": {
+          "name": "project-words",
+          "path": "${workspaceRoot}/project-words.txt",
+          "description": "Words used in this project",
+          "addWords": true
+        }
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
+}
